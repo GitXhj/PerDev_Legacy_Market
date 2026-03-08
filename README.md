@@ -1,4 +1,5 @@
-# PerDev Market
+# PerDev Market 
+<img src="assets/icon/perdev.png" alt="icon" width="60" style="display: block; margin: auto;">
 
 一个基于Flutter开发的应用商店App，Material design设计，现公开源代码供参考动画和功能实现，前世是PerDev的Flutter重构版。因不可抗力因素已停止运营😭
 
@@ -17,8 +18,6 @@
 | WebView Flutter | 内置浏览器 |
 | Cached Network Image | 图片缓存 |
 | SQLite (sqflite) | 本地数据库 |
-
-![截图]
 
 ### 动画与页面
 使用Flutter的Hero等流畅动效，Material design设计，虚化效果
