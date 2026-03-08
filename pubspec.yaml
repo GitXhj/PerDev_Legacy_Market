@@ -1,0 +1,66 @@
+name: perdev
+description: A Flutter mini-app collection application.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP 请求库
+  http: ^1.2.0
+
+  # 缓存网络图片
+  cached_network_image: ^3.3.1
+
+  # 安全存储敏感信息
+  flutter_secure_storage: ^9.0.0
+
+  # 加密库（支持 Dart 3）
+  pointycastle: ^3.9.1
+
+  # 生成 UUID
+  uuid: ^4.3.0
+
+  # 轮播图（换成 5.x，避免 Carousel 冲突）
+  carousel_slider: ^5.0.0
+
+  # 打开外部 URL
+  url_launcher: ^6.2.5
+
+  # 页码指示器
+  smooth_page_indicator: ^1.1.0
+
+  # 加载占位符动画
+  shimmer: ^3.0.0
+
+  # 获取应用版本信息
+  package_info_plus: ^5.0.0
+
+  # 网络缓存管理
+  flutter_cache_manager: ^3.3.1
+
+  webview_flutter: ^4.4.0 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/icon/perdev.png"
+  min_sdk_android: 21
